@@ -6,7 +6,7 @@ text-align: center;
 font: 700 1em "Helvetica";
 }
 .container{
-max-width: 800px;
+
 display: flex;
 flex-direction: column;
 margin-top: 2rem;
@@ -59,7 +59,10 @@ transform: scale(1.1);
     }
     .card {
     padding: 1.5rem;
-    width: 10rem;
+    width: 12rem;
+    }
+    #time{
+        max-width: 20rem;
     }
 }
 @media (min-width: 1440px){
