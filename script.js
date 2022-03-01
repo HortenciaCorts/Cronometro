@@ -35,7 +35,7 @@ function startTime() {
 
 let interval;
 start.addEventListener("click", function () {
-  interval = setInterval(startTime, 10);
+  interval = setInterval(startTime, 1000);
 });
 stop.addEventListener("click", function () {
   clearInterval(interval);
